@@ -16,7 +16,7 @@ def hash_to_other_formats(api_key, hash_value):
         return "Error occurred while fetching data from VirusTotal"
 
 # Replace 'YOUR_API_KEY' with your actual VirusTotal API key
-api_key = '200957b097abd6c4c54b1b6d1ba25ddd27478be88861e8aedc16dc5c23addad4'
+api_key = 'YOUR_API_KEY'
 
 # Load Excel file
 workbook = openpyxl.load_workbook('hashes.xlsx')
